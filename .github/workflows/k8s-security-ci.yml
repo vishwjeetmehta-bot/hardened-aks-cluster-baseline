@@ -1,0 +1,23 @@
+name: "K8s Hardened Baseline CI"
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Kubernetes Manifests
+        uses: instrumenta/kubeval-action@master
+        with:
+          files: "kubernetes/manifests"
+      - name: Checkov Manifest Security Scan
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: "kubernetes/manifests"
+          framework: kubernetes
+          soft_fail: true

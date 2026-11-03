@@ -1,0 +1,15 @@
+controller:
+  replicaCount: 3
+  minAvailable: 2
+  resources:
+    requests:
+      cpu: 200m
+      memory: 256Mi
+    limits:
+      cpu: 1000m
+      memory: 1Gi
+  metrics:
+    enabled: true
+  service:
+    annotations:
+      service.beta.kubernetes.io/azure-load-balancer-internal: "true"

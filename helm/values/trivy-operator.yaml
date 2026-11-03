@@ -1,0 +1,8 @@
+trivy:
+  severity: "CRITICAL,HIGH"
+  ignoreUnfixed: true
+operator:
+  scanJobsConcurrentLimit: 3
+  scanJobTimeout: 5m
+compliance:
+  reportType: "summary"
