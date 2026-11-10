@@ -6,3 +6,4 @@ operator:
   scanJobTimeout: 5m
 compliance:
   reportType: "summary"
+

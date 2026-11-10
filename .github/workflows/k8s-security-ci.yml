@@ -21,3 +21,4 @@ jobs:
           directory: "kubernetes/manifests"
           framework: kubernetes
           soft_fail: true
+

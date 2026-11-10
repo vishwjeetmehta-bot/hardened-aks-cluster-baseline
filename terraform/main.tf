@@ -102,3 +102,4 @@ resource "azurerm_kubernetes_cluster_node_pool" "workloads" {
   max_count             = 6
   tags                  = var.tags
 }
+

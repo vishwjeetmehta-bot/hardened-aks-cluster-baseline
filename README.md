@@ -98,5 +98,6 @@ helm install ingress-nginx ingress-nginx/ingress-nginx -f ../helm/values/ingress
 
 **Vishwjeet Kumar Mehta**  
 Senior DevOps & DevSecOps Consultant | Cloud & Infrastructure Architect  
-- **LinkedIn**: [linkedin.com/in/vishwjeetmehta](https://linkedin.com/in/vishwjeetmehta)  
+- **LinkedIn**: [linkedin.com/in/vishwjeet-mehta](https://www.linkedin.com/in/vishwjeet-mehta/)  
 - **GitHub**: [@vishwjeetmehta-bot](https://github.com/vishwjeetmehta-bot)
+

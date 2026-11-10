@@ -9,3 +9,4 @@ output "aks_cluster_id" {
 output "oidc_issuer_url" {
   value = azurerm_kubernetes_cluster.hardened_aks.oidc_issuer_url
 }
+
